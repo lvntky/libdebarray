@@ -34,7 +34,7 @@ $(SHARED): $(OBJ)
 # Demo / example binary
 demo: $(DEMO)
 
-$(DEMO): examples/demo.c $(STATIC) | build
+$(DEMO): example/demo.c $(STATIC) | build
 	$(CC) $(CFLAGS) -o $@ $< -Lbuild -ldebarray -Wl,-rpath,build $(LDFLAGS)
 
 # Create build dir if missing

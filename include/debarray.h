@@ -16,6 +16,8 @@
 #ifndef DEBARRAY_H_
 #define DEBARRAY_H_
 
+#define DEBARRAY_VERSION "0.1.0"
+
 #include <stddef.h>
 
 #ifdef __cplusplus
