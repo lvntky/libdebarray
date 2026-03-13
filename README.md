@@ -1,4 +1,4 @@
-# debarray
+# libdebarray
 
 Minimal C99 library to debug and visualize 2D/3D arrays on the terminal. Designed with zero dependency to easly integrate into your project.
 

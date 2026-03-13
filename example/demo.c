@@ -1,1 +1,2 @@
-keep
+#include <debarray.h>
+
